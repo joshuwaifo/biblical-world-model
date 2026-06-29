@@ -1,0 +1,24 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+pydantic==2.10.3
+pydantic-settings==2.7.0
+
+# NLP / text processing
+gensim==4.3.3
+spacy==3.8.3
+scikit-learn==1.6.0
+nltk==3.9.1
+
+# Geometric Deep Learning
+torch==2.5.1
+torch-geometric==2.6.1
+geoopt==0.5.0
+networkx==3.4.2
+
+# Vector search
+faiss-cpu==1.9.0.post1
+
+# HTTP / data fetching
+httpx==0.28.1
+lxml==5.3.0

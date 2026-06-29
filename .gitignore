@@ -1,0 +1,32 @@
+# Intermediate training checkpoints (~600 MB) — final weights are in models/gnn_weights.pt
+models/checkpoints/
+
+# Raw corpus downloads — re-downloadable via: python data/ingest.py
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code session files
+.claude/
